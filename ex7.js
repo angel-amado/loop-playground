@@ -28,8 +28,12 @@ let esNumeroPar;
 
 for (let i=0; i<ultimoNumeroComprobar;i++) {
     esNumeroPar = i % 2;
-    console.log(`El número ${i} es par o impar? ${esNumeroPar}`)
+    console.log(`El número ${i} es par o impar? ${esNumeroPar}`);
 
-    // Modificar a partir de aquí
+     // Modificar a partir de aquí
+
+     if(esNumeroPar)
+     console.log("Soy el número cero!");
+
 }
 
